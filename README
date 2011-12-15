@@ -1,0 +1,3 @@
+phevlcs - Phitherek_' s Experimental LibVLC Streamer
+
+This program is my experiment with LibVLC streaming functions - the simplest possible streamer. It sends a HTTP stream on localhost:8080, using ts mux. The files to stream are passed as command parameters. The --loop parameter enables repeating of the list of files. It depends on LibVLC (add a `pkg-config --cflags --libs libvlc` command after g++ compilation command).
